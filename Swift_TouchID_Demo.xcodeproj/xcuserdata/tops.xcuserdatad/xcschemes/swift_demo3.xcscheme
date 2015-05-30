@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E77F715F1B10762F00893C15"
-            BuildableName = "swift_demo3.app"
+            BuildableName = "TouchID.app"
             BlueprintName = "swift_demo3"
             ReferencedContainer = "container:Swift_TouchID_Demo.xcodeproj">
          </BuildableReference>
@@ -77,7 +77,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E77F715F1B10762F00893C15"
-            BuildableName = "swift_demo3.app"
+            BuildableName = "TouchID.app"
             BlueprintName = "swift_demo3"
             ReferencedContainer = "container:Swift_TouchID_Demo.xcodeproj">
          </BuildableReference>

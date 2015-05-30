@@ -175,7 +175,7 @@
     }
     func actionLongTap(gestureRecognizer:UIGestureRecognizer)
     {
-        println("hellow this is the button press*****")
+        println("Long press Actions ")
         if (gestureRecognizer.state == UIGestureRecognizerState.Began){
             var point = gestureRecognizer.locationInView(self.tblview) as CGPoint
             var indexpath = self.tblview.indexPathForRowAtPoint(point)
@@ -191,7 +191,9 @@
                     }
                 })
                 alert.showError("DELETE", subTitle:"Are you sure you want to delete ?", closeButtonTitle: "No", duration: 0.0)
-                
+            }
+            else{
+                println("gestureRecognizer.state = \(gestureRecognizer.state)")
             }
         }
         
