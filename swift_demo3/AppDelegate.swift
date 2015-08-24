@@ -25,6 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             // Register for Push Notifications before iOS 8
             application.registerForRemoteNotificationTypes(.Alert | .Badge | .Sound)
         }
+        print("------------------->Hello ")
         return true
     }
     func applicationWillResignActive(application: UIApplication) {

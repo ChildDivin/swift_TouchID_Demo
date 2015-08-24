@@ -127,6 +127,7 @@
         cell.textLabel!.text=arrData.objectAtIndex(indexPath.row) as? String
         cell.contentView.backgroundColor=UIColor.whiteColor()
         cell.selectionStyle=UITableViewCellSelectionStyle.None
+        cell.textLabel!.frame = CGRectMake(100,05, 200, 20)
         return cell;
     }
     
@@ -183,7 +184,7 @@
             {
                 println("index path is --->\(indexpath?.row)")
                 let alert = SCLAlertView()
-                alert.addButton("Ok", action: { () -> Void in
+                alert.addButton("Yes", action: { () -> Void in
                     if (self.arrData.count >= indexpath?.row)
                     {
                         self.arrData.removeObjectAtIndex(indexpath!.row)
